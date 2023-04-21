@@ -1,11 +1,19 @@
-.Title__title > h4{
+.Title__title{
+    display: flex;
+    align-items: center;   
+}
+.Title__title.Selected > h4{
+    background: lightgray;
+}
+.Title__title h4:hover{
+    background: lightgray;
+}
+.Title__title h4{
     word-wrap: none;
+    /* background-color: aquamarine; */
     padding: 12px 12px 12px 12px;
     border: 1px solid lightgray;
-    word-spacing: none;
+    white-space:nowrap;
     margin: 0px 5px;
     border-radius: 10px;
-}
-.Title__title{
-    flex:1;  
 }

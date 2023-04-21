@@ -1,0 +1,7 @@
+.videoSection {
+    width:calc(100vw - 72px);
+}
+.videoSection__video {
+    display:flex;
+    flex-wrap: wrap;
+}

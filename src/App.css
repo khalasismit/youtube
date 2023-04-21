@@ -2,5 +2,5 @@
   margin: 0;
 }
 .app__page{
-  display: inline-flex;
+  display:flex;
 }

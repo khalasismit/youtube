@@ -1,0 +1,13 @@
+.videoCard__thumbnail{
+    object-fit: contain;
+    height:257px;
+}
+.videoCard__info{
+    display: flex;
+    padding-right:30px ;
+    margin-top: 10px;
+}
+.videoCard{
+    width: 457px;
+    margin: 10px;
+}

@@ -1,6 +1,11 @@
 .recommendedTitle{
   flex: 0.95;
-  /* height: 20px; */
-  display:flex;
+  display: flex;
   align-items: center;
+  width: calc( 100vw - 92px);  
+  overflow:scroll;
+  margin: 20px 0px;
+}
+.recommendedTitle::-webkit-scrollbar{
+  height: 0;
 }

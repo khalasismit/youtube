@@ -1,0 +1,20 @@
+import React from 'react'
+import { Avatar } from '@mui/material'
+import './VideoCard.css'
+function VideoCard({ thumbnail, channelName, Channel, title, timestamp, views }) {
+    return (
+        <div className='videoCard'>
+            <img src={thumbnail} alt={channelName} className="videoCard__thumbnail" />
+            <div className="videoCard__info">
+                <Avatar src={Channel} alt={channelName} />
+                <div className="videoCard__text">
+                    <h4>{title}</h4>
+                    <p>{channelName}</p>
+                    <p>{views} views • {timestamp} ago</p>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default VideoCard

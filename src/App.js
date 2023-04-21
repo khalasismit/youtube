@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className="app__page">
-      <SidebarMini />
+      <SidebarMini/>
       <Main/>
       </div>
     </div>

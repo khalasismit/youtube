@@ -1,9 +1,9 @@
 import React from 'react'
-import'./Title.css'
-function Title({title}) {
+import './Title.css'
+function Title({ Selected, title }) {
   return (
-    <div className='Title__title'>
-        <h4>{title}</h4>
+    <div className={`Title__title  ${Selected && "Selected"}`} >
+      <h4>{title}</h4>
     </div>
   )
 }
