@@ -1,0 +1,11 @@
+.Title__title > h4{
+    word-wrap: none;
+    padding: 12px 12px 12px 12px;
+    border: 1px solid lightgray;
+    word-spacing: none;
+    margin: 0px 5px;
+    border-radius: 10px;
+}
+.Title__title{
+    flex:1;  
+}

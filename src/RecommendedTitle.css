@@ -1,0 +1,6 @@
+.recommendedTitle{
+  flex: 0.95;
+  /* height: 20px; */
+  display:flex;
+  align-items: center;
+}
