@@ -1,0 +1,9 @@
+.sidebarFull > hr{
+    color: lightgray;
+    margin: 10px 0px;
+}
+.sidebarFull{
+    width: calc(100vw - 80vw);
+    display: flex;
+    flex-direction: column;
+}
