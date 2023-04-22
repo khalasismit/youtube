@@ -1,19 +1,22 @@
-.sidebarRowMini{
-    width: 72px;
+.sidebarRowMini {
+    flex: 0.1;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin:0px 10px ;
-    padding:16px 0px 14px;
+    margin: 0px 10px;
+    padding: 16px 0px 14px;
 }
-.sidebarRowMini:hover{
-background: lightgray;
-border-radius: 8px;
+
+.sidebarRowMini:hover {
+    background: lightgray;
+    border-radius: 8px;
 }
-.sidebarRowMini__title{
+
+.sidebarRowMini__title {
     font-size: 12px;
     font-weight: bold;
 }
-.sidebarRowMini__icon{
+
+.sidebarRowMini__icon {
     margin-bottom: 6px;
 }

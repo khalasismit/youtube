@@ -2,13 +2,14 @@ import './App.css';
 import Main from './Main';
 import SidebarMini from './SidebarMini'
 import Navbar from './Navbar'
+
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
+    <div className="app">
+      <Navbar />
       <div className="app__page">
-      <SidebarMini/>
-      <Main/>
+        <SidebarMini />
+        <Main />
       </div>
     </div>
   );

@@ -1,13 +1,24 @@
 .videoCard__thumbnail{
+    width:440px ;
+    height:auto ;
     object-fit: contain;
-    height:257px;
 }
 .videoCard__info{
     display: flex;
-    padding-right:30px ;
-    margin-top: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px 0px;
 }
 .videoCard{
-    width: 457px;
+    flex: 1;
+    width:calc((100vw - 10vw) - 2/3);
     margin: 10px;
 }
+.videoCard__text{
+    margin-left: 10px;
+}
+.videoCard__text > p{
+    font-size: 20px;
+}
+.videoCard__text > h4{
+font-size: 20px;}

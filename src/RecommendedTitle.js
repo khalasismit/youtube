@@ -4,6 +4,8 @@ import Title from './Title'
 function RecommendedTitle() {
   return (
     <div className='recommendedTitle'>
+      <div className="recommendedTitle__titles">
+
         <Title Selected title="All"/>
         <Title title="Bhavya Gandhi"/>
         <Title title="Gaming"/>
@@ -37,6 +39,7 @@ function RecommendedTitle() {
         <Title title="Cricket"/>
         <Title title="Java"/>
         <Title title="Arijit Singh"/>
+      </div>
     </div>
   )
 }

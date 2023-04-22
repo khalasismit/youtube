@@ -1,7 +1,12 @@
-.videoSection {
-    width:calc(100vw - 72px);
+.videoSection::after {
+    content: "";
+    flex: auto;
 }
-.videoSection__video {
+.videoSection {
+    flex:0.9;
+    width: calc(100vw - 10vw);
     display:flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }

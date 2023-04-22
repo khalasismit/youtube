@@ -1,6 +1,10 @@
 *{
   margin: 0;
 }
+.app{
+  display: flex;
+  flex-direction: column;
+}
 .app__page{
-  display:flex;
+  display: flex;
 }
