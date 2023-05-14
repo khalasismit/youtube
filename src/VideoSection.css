@@ -3,6 +3,7 @@
     flex: auto;
 }
 .videoSection {
+    background: white;
     flex:0.9;
     width: calc(100vw - 10vw);
     display:flex;

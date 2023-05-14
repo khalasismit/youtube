@@ -4,7 +4,7 @@ import './VideoCard.css'
 function VideoCard({ thumbnail, channelName, channel, title, timestamp, views }) {
     return (
         <div className='videoCard'>
-                <img src={thumbnail} alt={channelName} className="videoCard__thumbnail"/>
+                <img src={thumbnail} alt="youTube__thumbnail" className="videoCard__thumbnail"  />
             <div className="videoCard__info">
                 <Avatar src={channel} alt={channelName} className='videoCard__channel' ></Avatar>
                 <div className="videoCard__text">

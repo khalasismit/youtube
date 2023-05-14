@@ -9,7 +9,7 @@ import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined
 function SidebarMini() {
   return (
     <div className='sidebarMini'>
-        <SidebarRowMini Icon={HomeIcon} title='Home'/>
+        <SidebarRowMini Selected Icon={HomeIcon} title='Home'/>
         <SidebarRowMini Icon={WhatshotOutlinedIcon} title="Short" />
         <SidebarRowMini Icon={SubscriptionsOutlinedIcon} title="Subscriptions" />
         <SidebarRowMini Icon={VideoLibraryOutlinedIcon} title="Library" />

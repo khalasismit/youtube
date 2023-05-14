@@ -1,19 +1,26 @@
+.sidebarRowFull.Selected{
+    background-color: lightgray;
+    border-radius: 10px;
+}
 .sidebarRowFull{
     flex: 1px;
     width: calc(100vw - 80vw);
     display: flex;
+    margin-left: 10px;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     height: 100%;
+    background-color: white;
 }
 .sidebarRowFull:hover{
+    cursor: pointer;
     border-radius: 10px;
     background: lightgray;
- }
+}
 .sidebarRowFull > h4{
-    font-size: 20px;
+    font-size: 16px;
     margin:5px 10px;
-    padding:0px 10px;
+    padding:0px 5px;
 }
 .sidebarRowFull__icon{
     padding: 10px;

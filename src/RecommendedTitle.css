@@ -1,15 +1,17 @@
 .recommendedTitle {
   flex: 0.9;
   position: sticky;
-  top: 0;
+  top: 70px;
+  z-index: 100;
 }
 
 .recommendedTitle__titles {
   display: flex;
-  width: calc(100vw - 10vw);
+  background: white;
+  width: calc(100vw - 10vw );
   align-items: center;
   overflow: scroll;
-  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 .recommendedTitle__titles::-webkit-scrollbar {
